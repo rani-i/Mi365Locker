@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 26
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        applicationId 'com.XiaomiM365Locker.app'
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'com.polidea.rxandroidble2:rxandroidble:1.5.0'
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.2.0'
+    //{}
+    // if you don't use android.app.Fragment you can exclude support for them
+    //    exclude module: "support-v13"
+    //}
+    implementation 'com.android.support:support-v4:26.1.0'
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.2.0"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:27.0.2'
+}

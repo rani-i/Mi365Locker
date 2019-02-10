@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">XiaomiM365Locker</string>
+    <string name="title_activity_devices">DevicesActivity</string>
+    <string name="title_activity_devices_activity">devices_activity</string>
+</resources>

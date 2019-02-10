@@ -1,0 +1,13 @@
+*.iml
+.gradle
+gradle/
+/local.properties
+/.idea/libraries
+/.idea/
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+XiaomiM365Locker.apk
