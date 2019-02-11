@@ -12,7 +12,7 @@ Most of the BLE commands - https://github.com/maisi/M365-Power
 
 ## TODOs
 * Add check whether the BLE device is scooter by catching BadCharacteristic exception
-* Add remote install firmware from that code instead of different app.
+* ~~Add remote install firmware from that code instead of different app.~~
 
 ## Disclaimer
 The app is intended to be used for education purposes only.
