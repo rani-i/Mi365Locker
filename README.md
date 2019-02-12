@@ -10,6 +10,8 @@ Android library for BLE communication - https://github.com/Polidea/RxAndroidBle
 
 Most of the BLE commands - https://github.com/maisi/M365-Power
 
+Blog post - https://blog.zimperium.com/dont-give-me-a-brake-xiaomi-scooter-hack-enables-dangerous-accelerations-and-stops-for-unsuspecting-riders/
+
 ## TODOs
 * Add check whether the BLE device is scooter by catching BadCharacteristic exception
 * ~~Add remote install firmware from that code instead of different app.~~
