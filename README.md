@@ -2,7 +2,8 @@
 The app allows you to search for Xiaomi scooters lock & unlock the devices.
 This security concerned was put to the attention of Xiaomi and disclosed responsibly.
 Xiaomi responded it is publicly known and it is a third party.
-iOS App - https://github.com/chilik/Mi365Locker-iOS
+
+PoC for iOS - https://github.com/chilik/Mi365Locker-iOS
 
 ## References
 
